@@ -50,7 +50,7 @@
             :btnType="`pay`"
             :isActive="isPaymentBtnActive"
           >
-            Оплатить
+            {{ isPaymentBtnActive ? "Оплачено" : "Оплатить" }}
           </add-to-button>
         </template>
 
