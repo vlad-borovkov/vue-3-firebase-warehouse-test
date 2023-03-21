@@ -17,3 +17,28 @@ export const firebaseConfig = {
 
 // Initialize Firebase
 //initializeApp(firebaseConfig);
+
+// запись данных
+// function writeUserData(userId, name, email, imageUrl) {
+//   const db = getDatabase();
+//   set(ref(db, "users/" + userId), {
+//     username: name,
+//     email: email,
+//     profile_picture: imageUrl,
+//   });
+// }
+// writeUserData("214141", "John", "sdvsdv@sfvsf.com", "dskksksksksk");
+// получение данных
+// const dbRef = ref(getDatabase());
+// const userId = 214141;
+// get(child(dbRef, `users/${userId}`))
+//   .then((snapshot) => {
+//     if (snapshot.exists()) {
+//       console.log(snapshot.val());
+//     } else {
+//       console.log("No data available");
+//     }
+//   })
+//   .catch((error) => {
+//     console.error(error);
+//   });

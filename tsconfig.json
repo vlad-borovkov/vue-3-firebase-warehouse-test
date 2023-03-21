@@ -24,6 +24,6 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-  ],
+, "src/components/UI/index.js"  ],
   "exclude": ["node_modules"]
 }

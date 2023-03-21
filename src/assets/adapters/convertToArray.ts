@@ -1,3 +1,3 @@
-export const getArray = (obj: any) => {
-  return Object.values(obj);
-};
+import { IProduct } from '@/types/IProduct';
+
+export const getArray = (obj: any): IProduct[] => Object.values(obj);
