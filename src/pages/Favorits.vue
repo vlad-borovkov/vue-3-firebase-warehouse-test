@@ -27,7 +27,7 @@ export default {
     function getProducts(currentQuery) {
       console.log(currentQuery);
       favoritsSrore.fetchAllFavoritsProducts(
-        "/warehouse",
+        "/favorits",
         currentQuery.sales_type,
         currentQuery.search
       );
